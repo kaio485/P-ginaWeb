@@ -1,0 +1,94 @@
+body {
+    color:black;
+    background: rgba(182, 114, 47, 0.832);
+    margin: 0px;
+    font-family: "Archivo Black", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 5px rgba(221, 49, 49, 0.832);
+    padding: 20px;
+    font-size: 40px; 
+    font-family: "Bricolage Grotesque", sans-serif;
+    color: rgba(221, 49, 49, 0.832);
+} 
+.chamada {
+    background: rgba(49, 86, 221, 0.832);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+    justify-content:center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+p {
+    font-size: 25px;
+}
+
+img {
+    height:200px;
+}
+
+.categoria-vídeos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-vídeos img {
+    opacity: 0.5;
+}
+
+.categoria-vídeos img:hover {
+opacity: 1.0;
+border: 2px solid blue;
+}
+
+.categoria h2 {
+    color: rgba(221, 49, 49, 0.832);
+}
+
+.soluções {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 100px;
+}
+
+.soluçõe-vídeos {
+    height: 400px;
+
+}
+
+.soluções-vídeos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.soluções-texto h3 {
+    color: rgba(221, 49, 49, 0.832);
+    font-size: 35px;
+}
+
+.logotipo {
+    font-weight: 200px;
+}
+
+.imagem-redimensionada {
+width: 400px;
+height: 300px;
+}
